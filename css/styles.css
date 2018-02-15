@@ -1,0 +1,42 @@
+.card{
+    width: 312px;
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 6px;
+    font-family: 'Cabin', sans-serif;
+    background: rgb(164, 164, 253);
+    -webkit-box-shadow: 6px 8px 22px -1px rgba(85, 106, 128,0.8);
+    -moz-box-shadow: 6px 8px 22px -1px rgba(85, 106, 128,0.8);
+    box-shadow: 6px 8px 22px -1px rgba(85, 106, 128,0.8);
+}
+.card >*{
+    padding: 6px;
+}
+.animal-name{
+    font-size: 1.4em;
+    margin: 6px;
+    letter-spacing: 2px;
+}
+.animal-image{
+    height: 230px;
+    width: 300px;
+}
+.animal-info{
+    border: 1px solid rgba(136, 136, 136, 0.336);
+    margin: 6px;
+    font-size: 1.05em;
+}
+.interesting-fact{
+    font-style: italic;
+    word-spacing: 8px;
+}
+.list-items{
+    list-style: none;
+    padding: 0;
+}
+.list-items span{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.animal-description{
+    word-spacing: 4px;
+}
